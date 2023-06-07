@@ -1,5 +1,7 @@
 import React from "react";
 import './App.css';
+
+// import 경고 알아볼 것
 import pracComponent from "./pracComponent";
 
 function App() {
