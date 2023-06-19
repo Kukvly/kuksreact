@@ -14,9 +14,9 @@ import './App.css';
 // import ArrowFunc from './R013_ArrowFunction';
 // import ForEach from './R014_ForEach';
 // import Props from './R017_Props';
-//import PropsDatatype from './R018_PropsDatatype';
-import PropsBoolean from './R019_PropsBoolean';
-
+// import PropsDatatype from './R018_PropsDatatype';
+// import PropsBoolean from './R019_PropsBoolean';
+import PropsObjVal from './R020_PropsObjVal';
 function App() {
   // return (
   //   <div>
@@ -36,7 +36,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <PropsObjVal Object JSON={{react:'리엑트', twohundred: '200'}}/>
+      <PropsObjVal ObjectJson={{react:'리엑트', twohundred: '200'}}/>
     </div>
   )
 }
