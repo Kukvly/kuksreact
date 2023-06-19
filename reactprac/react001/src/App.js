@@ -36,8 +36,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <PropsBoolean BooleanTrueFalse={false}/>
-      <PropsBoolean BooleanTrueFalse/>
+      <PropsObjVal Object JSON={{react:'리엑트', twohundred: '200'}}/>
     </div>
   )
 }
