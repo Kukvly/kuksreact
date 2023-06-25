@@ -21,6 +21,7 @@ import './App.css';
 import PropsDefault from './R022_PropsDefault';
 import PropsNode from './R023_PropsNode';
 import ReactState from './R024_ReactState';
+import SetState from './R025_SetState';
 function App() {
   // return (
   //   <div>
@@ -47,6 +48,8 @@ function App() {
       </PropsNode>
 
       <ReactState reactString={"react"}/>
+
+      <SetState/>
     </div>
   );
 }
