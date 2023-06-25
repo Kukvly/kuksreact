@@ -17,7 +17,8 @@ import './App.css';
 // import PropsDatatype from './R018_PropsDatatype';
 // import PropsBoolean from './R019_PropsBoolean';
 // import PropsObjVal from './R020_PropsObjVal';
-import PropsRequired from './R021_PropsRequired';
+// import PropsRequired from './R021_PropsRequired';
+import PropsDefault from './R022_PropsDefault';
 function App() {
   // return (
   //   <div>
@@ -37,7 +38,8 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <PropsRequired ReactNumber={200}/>
+      {/* <PropsRequired ReactNumber={200}/> */}
+      <PropsDefault ReactNumber={200}/>
     </div>
   );
 }
