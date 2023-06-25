@@ -8,9 +8,9 @@ class R025_SetState extends Component {
         }
     }
 
-    StateString = (flag) => {
-        if(flag === 'direct') this.state.StateString = '리액트';
-        if(flag === 'setstate') this.setState({StateString: 'react'}); 
+    StateChange = (flag) => {
+        if(flag === 'direct') this.state.StateString = '리액트'; // this.state.variables = value -> 변화 X
+        if(flag === 'setstate') this.setState({StateString: '리액트'}); 
     }
 
     render(){
