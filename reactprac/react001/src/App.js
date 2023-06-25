@@ -19,6 +19,8 @@ import './App.css';
 // import PropsObjVal from './R020_PropsObjVal';
 // import PropsRequired from './R021_PropsRequired';
 import PropsDefault from './R022_PropsDefault';
+import PropsNode from './R023_PropsNode';
+import ReactState from './R024_ReactState';
 function App() {
   // return (
   //   <div>
@@ -40,6 +42,11 @@ function App() {
       <p>CSS 적용하기</p>
       {/* <PropsRequired ReactNumber={200}/> */}
       <PropsDefault ReactNumber={200}/>
+      <PropsNode>
+        <span>node from App.js</span>
+      </PropsNode>
+
+      <ReactState reactString={"react"}/>
     </div>
   );
 }
