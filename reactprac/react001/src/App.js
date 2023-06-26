@@ -22,6 +22,8 @@ import PropsDefault from './R022_PropsDefault';
 import PropsNode from './R023_PropsNode';
 import ReactState from './R024_ReactState';
 import SetState from './R025_SetState';
+import ForceUpdate from './R026_ForceUpdate';
+
 function App() {
   // return (
   //   <div>
@@ -50,6 +52,7 @@ function App() {
       <ReactState reactString={"react"}/>
 
       <SetState/>
+      <ForceUpdate/>
     </div>
   );
 }
