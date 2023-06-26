@@ -24,6 +24,7 @@ import ReactState from './R024_ReactState';
 import SetState from './R025_SetState';
 import ForceUpdate from './R026_ForceUpdate';
 import ComponentClass from './R027_ComponentClass';
+import PureComponentClass from "./R028_PureComponentClass";
 
 function App() {
   // return (
@@ -55,6 +56,7 @@ function App() {
       <SetState/>
       <ForceUpdate/>
       <ComponentClass/>
+      <PureComponentClass/>
     </div>
   );
 }
